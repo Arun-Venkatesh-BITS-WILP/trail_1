@@ -18,7 +18,7 @@ def train_model():
     # Save model
     with open("model.pkl", "wb") as f:
         pickle.dump(model, f)
-    print("Model trained and saved successfully!")
+    print("Model trained and saved successfully with result!")
 
 
 if __name__ == "__main__":
